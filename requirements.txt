@@ -1,0 +1,7 @@
+numpy>=1.23
+Pillow>=9.0
+matplotlib>=3.5
+# optional
+streamlit>=1.30      # GUI (app.py)
+pytest>=7.0          # tests
+scikit-learn>=1.0    # only used by tests to cross-validate our implementations

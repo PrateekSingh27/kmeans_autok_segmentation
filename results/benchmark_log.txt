@@ -1,0 +1,31 @@
+K_true=2 done (15s)
+K_true=3 done (36s)
+K_true=4 done (60s)
+K_true=5 done (75s)
+K_true=6 done (89s)
+K_true=7 done (107s)
+K_true=8 done (123s)
+| Method | Exact-match accuracy (%) | Mean abs. error |
+|---|---|---|
+| elbow | 33.3 | 1.53 |
+| silhouette | 61.9 | 1.21 |
+| davies_bouldin | 58.1 | 1.11 |
+| calinski_harabasz | 65.7 | 0.81 |
+| gap | 49.5 | 0.97 |
+| vote | 66.7 | 0.94 |
+| borda | 71.4 | 0.84 |
+
+Accuracy (%) by noise level (noise std in grey-levels):
+
+| Method | noise 8 | noise 20 | noise 35 |
+|---|---|---|---|
+| elbow | 34.3 | 34.3 | 31.4 |
+| silhouette | 94.3 | 51.4 | 40.0 |
+| davies_bouldin | 88.6 | 48.6 | 37.1 |
+| calinski_harabasz | 85.7 | 68.6 | 42.9 |
+| gap | 62.9 | 51.4 | 34.3 |
+| vote | 94.3 | 60.0 | 45.7 |
+| borda | 97.1 | 71.4 | 45.7 |
+
+Mean ARI of segmentation using the voted K: 0.8376
+Runs: 105  (123s)
